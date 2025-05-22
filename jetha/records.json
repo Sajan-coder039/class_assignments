@@ -1,0 +1,47 @@
+{
+    "sajan": [
+        {
+            "date": "2025-05-21",
+            "months": [
+                "May",
+                "June"
+            ],
+            "total": 2955
+        },
+        {
+            "Date": "2025-05-21",
+            "amount": 105,
+            "Action": "THE NEW BALANCE: 2995"
+        },
+        {
+            "Date": "2025-05-22",
+            "amount": 50,
+            "Action": "THE NEW BALANCE: 2945"
+        },
+        {
+            "Date": "2025-05-22",
+            "amount": 2,
+            "Action": "THE NEW BALLANCE: 2997"
+        },
+        {
+            "Date": "2025-05-22",
+            "amount": 2,
+            "Action": "THE NEW BALANCE: 2995"
+        },
+        {
+            "Date": "2025-05-22",
+            "amount": 55,
+            "Action": "THE NEW BALLANCE: 3050"
+        },
+        {
+            "Date": "2025-05-22",
+            "amount": 40,
+            "Action": "THE NEW BALANCE: 3010"
+        },
+        {
+            "Date": "2025-05-22",
+            "amount": 55,
+            "Action": "THE NEW BALANCE: 2955"
+        }
+    ]
+}

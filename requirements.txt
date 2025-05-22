@@ -1,1 +1,4 @@
 ipykernel
+bs4
+requests
+flask
