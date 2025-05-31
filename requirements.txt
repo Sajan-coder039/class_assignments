@@ -2,3 +2,8 @@ ipykernel
 bs4
 requests
 flask
+pandas
+numpy
+seabon
+plotchecker
+matplotlib

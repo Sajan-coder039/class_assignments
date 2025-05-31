@@ -1,23 +1,18 @@
-import sys
-import multiprocessing
-import time
-import math
+import datetime
+import pandas as pd
 
-sys.set_int_max_str_digits(10000)
+data = []
 
-def factorial(num):
-    print(f"Computing Factorial of {num}")
-    result=math.factorial(num)
-    print(f"factorial of {num} is {result}")
-    return result
-
-if __name__=="__main__":
-    numbers=[1000,2000,400]
-    start_time=time.time()
-    # with multiprocessing.Pool() as pool:
-    #     results=pool.map(factorial,numbers)
-    rnu=map(factorial,numbers)
-    results=list(rnu)
-    end_time=time.time()
+while True:
+    now = datetime.datetime.now().date()
+    user_input = float(input("Time you put: "))
     
-    print(f"the time taked {end_time-start_time}")
+    data.append({"Timestamp": now, "Input": user_input})
+    
+    choice = input("Continue? (yes or no): ")
+    if choice.lower() == "no":
+        break
+
+df = pd.DataFrame(data)
+
+df.to_json("sajan.json")
