@@ -4,6 +4,6 @@ requests
 flask
 pandas
 numpy
-seabon
 plotchecker
 matplotlib
+seaborn
